@@ -1,3 +1,2 @@
-FROM nginx:latest
-
-COPY ./Encriptador /usr/share/nginx/html/Encriptador
+FROM nginx:alpine
+COPY Encriptador/index.html /usr/share/nginx/html/index.html
